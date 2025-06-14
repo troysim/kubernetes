@@ -1,3 +1,10 @@
+## 🧭 What This Project Does (Summary)
+
+- Creates a local Kind cluster with port mappings
+- Deploys a simple HTTP echo container
+- Exposes the app using Kubernetes `Ingress` + NGINX
+- Provides a clean way to test microservice routing locally
+
 # 🚀 Hello App on Kubernetes with Kind and Ingress
 
 This project sets up a local Kubernetes environment using Kind (Kubernetes in Docker) and deploys a simple HTTP echo application.
@@ -112,9 +119,3 @@ Hello from Kind!
 
 ---
 
-## 🧭 What This Project Does (Summary)
-
-- Creates a local Kind cluster with port mappings
-- Deploys a simple HTTP echo container
-- Exposes the app using Kubernetes `Ingress` + NGINX
-- Provides a clean way to test microservice routing locally
